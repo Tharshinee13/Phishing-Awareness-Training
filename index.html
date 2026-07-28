@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishGuard | Phishing Awareness Training</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-shield-halved"></i>
+                PhishGuard
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#types">Types</a></li>
+                <li><a href="#emails">Emails</a></li>
+                <li><a href="#social">Social Engineering</a></li>
+                <li><a href="#prevention">Prevention</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>PhishGuard</h1>
+            <h2>Interactive Phishing Awareness Training Module</h2>
+
+            <p>
+                Learn how phishing attacks work, identify fake websites,
+                recognize malicious emails, and protect yourself against
+                social engineering attacks.
+            </p>
+
+            <a href="#about" class="btn">
+                Start Learning
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <h2>What is Phishing?</h2>
+
+        <div class="card">
+            <p>
+                Phishing is a cyberattack in which attackers impersonate
+                trusted organizations or individuals to steal sensitive
+                information such as passwords, banking credentials,
+                OTPs, and personal information.
+            </p>
+
+            <p>
+                Attackers commonly use emails, text messages, fake websites,
+                and social engineering techniques to deceive victims.
+            </p>
+
+            <p>
+                Phishing attacks remain one of the most successful forms
+                of cybercrime because they target human behavior rather
+                than technical vulnerabilities.
+            </p>
+        </div>
+    </section>
+
+    <!-- TYPES -->
+    <section id="types" class="section">
+        <h2>Types of Phishing Attacks</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email Phishing</h3>
+                <p>
+                    Fraudulent emails pretending to be legitimate organizations.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-crosshairs"></i>
+                <h3>Spear Phishing</h3>
+                <p>
+                    Targeted attacks aimed at specific individuals or companies.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-crown"></i>
+                <h3>Whaling</h3>
+                <p>
+                    Attacks focused on executives and high-profile employees.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Smishing</h3>
+                <p>
+                    SMS-based phishing attacks designed to steal information.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Vishing</h3>
+                <p>
+                    Voice phishing conducted through phone calls.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PHISHING EMAIL -->
+    <section id="emails" class="section">
+        <h2>Recognizing Phishing Emails</h2>
+
+        <div class="card">
+            <h3>Warning Signs</h3>
+
+            <ul>
+                <li>Unknown sender address.</li>
+                <li>Urgent or threatening language.</li>
+                <li>Spelling and grammar mistakes.</li>
+                <li>Suspicious links.</li>
+                <li>Unexpected attachments.</li>
+                <li>Requests for passwords or OTPs.</li>
+            </ul>
+        </div>
+
+        <div class="example">
+            <h3>Example Email</h3>
+
+            <p><strong>From:</strong> support@amaz0n-security.com</p>
+
+            <p>
+                Your account has been suspended.
+                Click immediately to verify your account.
+            </p>
+
+            <p class="danger">
+                Red Flags: Fake domain, urgency, suspicious request.
+            </p>
+        </div>
+    </section>
+
+    <!-- FAKE WEBSITES -->
+    <section class="section">
+        <h2>Identifying Fake Websites</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Legitimate</h3>
+                <p>amazon.com</p>
+            </div>
+
+            <div class="card">
+                <h3>Fake</h3>
+                <p>amaz0n-login.com</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <ul>
+                <li>Check the URL carefully.</li>
+                <li>Look for HTTPS.</li>
+                <li>Watch for spelling mistakes.</li>
+                <li>Avoid suspicious popups.</li>
+                <li>Verify the domain name.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SOCIAL ENGINEERING -->
+    <section id="social" class="section">
+        <h2>Social Engineering Tactics</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Fear</h3>
+                <p>Your account will be locked.</p>
+            </div>
+
+            <div class="card">
+                <h3>Urgency</h3>
+                <p>Act immediately.</p>
+            </div>
+
+            <div class="card">
+                <h3>Authority</h3>
+                <p>Fake bank or company representatives.</p>
+            </div>
+
+            <div class="card">
+                <h3>Curiosity</h3>
+                <p>You received a secret document.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PREVENTION -->
+    <section id="prevention" class="section">
+        <h2>How to Stay Safe</h2>
+
+        <div class="card">
+            <ul class="checklist">
+                <li>Use strong passwords.</li>
+                <li>Enable Multi-Factor Authentication.</li>
+                <li>Verify email addresses.</li>
+                <li>Never share OTPs.</li>
+                <li>Keep software updated.</li>
+                <li>Avoid clicking suspicious links.</li>
+                <li>Report phishing attempts.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- REAL WORLD EXAMPLES -->
+    <section class="section">
+        <h2>Real World Examples</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Banking Scam</h3>
+                <p>
+                    Fake banking emails asking users to verify accounts.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Delivery Scam</h3>
+                <p>
+                    Messages claiming package delivery failure.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Job Scam</h3>
+                <p>
+                    Fake recruitment offers requesting money.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="section">
+        <h2>Interactive Quiz</h2>
+
+        <div class="quiz-box">
+
+            <div class="question">
+                <h3>1. What is phishing?</h3>
+
+                <input type="radio" name="q1" value="0">
+                A security update.<br>
+
+                <input type="radio" name="q1" value="1">
+                An attack to steal information.<br>
+
+                <input type="radio" name="q1" value="0">
+                Antivirus software.<br>
+            </div>
+
+            <div class="question">
+                <h3>2. Should you share your OTP?</h3>
+
+                <input type="radio" name="q2" value="0">
+                Yes<br>
+
+                <input type="radio" name="q2" value="1">
+                No<br>
+            </div>
+
+            <div class="question">
+                <h3>3. Which is suspicious?</h3>
+
+                <input type="radio" name="q3" value="1">
+                amaz0n-login.com<br>
+
+                <input type="radio" name="q3" value="0">
+                amazon.com<br>
+            </div>
+
+            <button onclick="calculateScore()" class="btn">
+                Submit Quiz
+            </button>
+
+            <h3 id="result"></h3>
+
+        </div>
+    </section>
+
+    <!-- LEARNING OUTCOMES -->
+    <section class="section">
+        <h2>Learning Outcomes</h2>
+
+        <div class="card">
+            <ul>
+                <li>Understand phishing attacks.</li>
+                <li>Recognize fake emails.</li>
+                <li>Identify fake websites.</li>
+                <li>Understand social engineering.</li>
+                <li>Apply cybersecurity best practices.</li>
+                <li>Respond safely to suspicious messages.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>PhishGuard</h3>
+
+        <p>
+            Interactive Phishing Awareness Training Module
+        </p>
+
+        <p>
+            Developed by <a href="https://sreerampalani.vercel.app" target="_blank">Sreeram Palani</a>
+        </p>
+
+        <p>
+            © 2026 All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
