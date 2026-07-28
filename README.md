@@ -209,7 +209,7 @@ This project is developed **solely for educational and cybersecurity awareness p
 
 # 👨‍💻 Author
 
-**Sreeram S P**
+**Tharshinee G I**
 
 B.Tech Computer Science & Engineering (Cyber Security)
 
